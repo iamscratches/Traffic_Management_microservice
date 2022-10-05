@@ -1,0 +1,50 @@
+2022-10-05 11:04:42.107  INFO 2688 --- [main] c.f.TMSFrontend.TmsFrontendApplication   : Starting TmsFrontendApplication using Java 17.0.2 on DESKTOP-NH0V514 with PID 2688 (E:\small-spring-boot-projects\TMSFrontend\target\classes started by HP in E:\small-spring-boot-projects\TMSFrontend)
+2022-10-05 11:04:42.134 DEBUG 2688 --- [main] c.f.TMSFrontend.TmsFrontendApplication   : Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-10-05 11:04:42.134  INFO 2688 --- [main] c.f.TMSFrontend.TmsFrontendApplication   : The following 1 profile is active: "default"
+2022-10-05 11:04:44.846  INFO 2688 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-05 11:04:44.950  INFO 2688 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 0 JPA repository interfaces.
+2022-10-05 11:04:46.955  INFO 2688 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-10-05 11:04:47.018  INFO 2688 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-05 11:04:47.020  INFO 2688 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-05 11:04:47.421  INFO 2688 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-05 11:04:47.421  INFO 2688 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4543 ms
+2022-10-05 11:04:48.034  INFO 2688 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-05 11:04:48.185  INFO 2688 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-10-05 11:04:48.697  INFO 2688 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-05 11:04:49.110  INFO 2688 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-05 11:04:49.595  INFO 2688 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-05 11:04:49.674  INFO 2688 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-10-05 11:04:50.287  INFO 2688 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-05 11:04:50.314  INFO 2688 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-05 11:04:50.466 DEBUG 2688 --- [main] c.f.T.controller.DeleteInfoController    : DeleteInfoController Autowired with DeleteInfoService
+2022-10-05 11:04:50.606 DEBUG 2688 --- [main] c.f.T.controller.EditInfoController      : EditDataController Autowired with EditInfoService
+2022-10-05 11:04:50.637 DEBUG 2688 --- [main] c.f.T.controller.ViewDataController      : ViewDataController Autowired with ViewDataService
+2022-10-05 11:04:50.649 DEBUG 2688 --- [main] c.f.T.controller.ViewInfoController      : ViewInfoController Autowired with ViewInfoService
+2022-10-05 11:04:51.042  INFO 2688 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5b64f771, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@153c6603, org.springframework.security.web.context.SecurityContextPersistenceFilter@391dfe7c, org.springframework.security.web.header.HeaderWriterFilter@229cb4d8, org.springframework.security.web.authentication.logout.LogoutFilter@778197c0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7e691624, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7d3bcd3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5dce5c03, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@24e2355c, org.springframework.security.web.session.SessionManagementFilter@30ef32eb, org.springframework.security.web.access.ExceptionTranslationFilter@5dd3727c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@29532e91]
+2022-10-05 11:04:51.205  WARN 2688 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-05 11:04:51.639  INFO 2688 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-10-05 11:04:52.862  INFO 2688 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-05 11:04:52.882  INFO 2688 --- [main] c.f.TMSFrontend.TmsFrontendApplication   : Started TmsFrontendApplication in 11.886 seconds (JVM running for 13.422)
+2022-10-05 11:05:26.576  INFO 2688 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-05 11:05:26.576  INFO 2688 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-05 11:05:26.586  INFO 2688 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2022-10-05 11:05:38.600  WARN 2688 --- [http-nio-8081-exec-6] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [140] milliseconds.
+2022-10-05 11:05:49.300 DEBUG 2688 --- [http-nio-8081-exec-1] c.f.TMSFrontend.service.ViewInfoService  : Received username 302 FOUND
+2022-10-05 11:05:49.363 DEBUG 2688 --- [http-nio-8081-exec-1] c.f.T.config.TMSUserDetailsService       : Found user : User{username='SUBHANKAR', password='$2a$11$lMQm0wsPM.wTbMmIHDFunO48CazIqmZGQo7Hya85NeIfMpFJ8rIlu', fname='SUBHANKAR', lname='BHATTACHARYYA', contactNo=7980723244, address='KOLKATA', roles=[Roles{username='SUBHANKAR', rolename='ADMIN', roledesc='FULL PRIVILEDGES'}, Roles{username='SUBHANKAR', rolename='RTO', roledesc='FULL PRIVILEDGES'}, Roles{username='SUBHANKAR', rolename='TRAFFIC_POLICE', roledesc='FULL PRIVILEDGES'}, Roles{username='SUBHANKAR', rolename='CLERK', roledesc='FULL PRIVILEDGES'}]}
+2022-10-05 11:05:49.739 DEBUG 2688 --- [http-nio-8081-exec-1] c.f.TMSFrontend.config.UserPrincipal     : ADMIN
+2022-10-05 11:05:49.739 DEBUG 2688 --- [http-nio-8081-exec-1] c.f.TMSFrontend.config.UserPrincipal     : RTO
+2022-10-05 11:05:49.739 DEBUG 2688 --- [http-nio-8081-exec-1] c.f.TMSFrontend.config.UserPrincipal     : TRAFFIC_POLICE
+2022-10-05 11:05:49.739 DEBUG 2688 --- [http-nio-8081-exec-1] c.f.TMSFrontend.config.UserPrincipal     : CLERK
+2022-10-05 11:05:49.913 DEBUG 2688 --- [http-nio-8081-exec-3] c.f.T.controller.ViewDataController      : com.frontend.TMSFrontend.util.ResponseMapper@32c07b0
+2022-10-05 11:06:09.788 DEBUG 2688 --- [http-nio-8081-exec-10] c.f.T.controller.ViewDataController      : com.frontend.TMSFrontend.util.ResponseMapper@43713749
+2022-10-05 11:06:12.883 DEBUG 2688 --- [http-nio-8081-exec-1] c.f.T.controller.ViewInfoController      : Vehicle details found with given ID
+2022-10-05 11:07:01.543 DEBUG 2688 --- [http-nio-8081-exec-5] c.f.T.controller.EditInfoController      : Vehicle : Vehicle{vehicleId=null, modelNo='GHIJJ', modelName='NISSAN PRO 2', vehicleType=2, color='WHITE', ownerId=1, manufacturerId=1, dom=2000-02-12, noc=3, cc=3, fuelUsed=1000, travelledKm=1000, lpc=, expired=, manufacturer=null, typeOfVehicles=null}
+2022-10-05 11:07:01.544 DEBUG 2688 --- [http-nio-8081-exec-5] c.f.TMSFrontend.service.EditInfoService  : Received edit request for vehicle info
+2022-10-05 11:07:01.788 DEBUG 2688 --- [http-nio-8081-exec-5] c.f.T.controller.EditInfoController      : Vehicle Entry successful
+2022-10-05 11:07:13.420 DEBUG 2688 --- [http-nio-8081-exec-2] c.f.T.controller.ViewDataController      : com.frontend.TMSFrontend.util.ResponseMapper@787d69b
+2022-10-05 11:07:49.597 DEBUG 2688 --- [http-nio-8081-exec-1] c.f.TMSFrontend.service.ViewInfoService  : Received username 302 FOUND
+2022-10-05 11:07:49.603 DEBUG 2688 --- [http-nio-8081-exec-1] c.f.T.config.TMSUserDetailsService       : Found user : User{username='TIMTEC', password='$2a$11$lMQm0wsPM.wTbMmIHDFunO48CazIqmZGQo7Hya85NeIfMpFJ8rIlu', fname='TIMOTHY', lname='TECH', contactNo=null, address='null', roles=[Roles{username='TIMTEC', rolename='TRAFFIC_POLICE', roledesc='VIEW, REGISTER AND CLEAR OFFENCE DETAILS'}]}
+2022-10-05 11:07:49.948 DEBUG 2688 --- [http-nio-8081-exec-1] c.f.TMSFrontend.config.UserPrincipal     : TRAFFIC_POLICE
+2022-10-05 11:11:45.249  INFO 2688 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-05 11:11:45.252  INFO 2688 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-05 11:11:45.257  INFO 2688 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
